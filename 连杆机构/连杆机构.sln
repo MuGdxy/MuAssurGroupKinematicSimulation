@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "连杆机构", "连杆机构.csproj", "{12E0D4AC-143B-4F51-B637-C2EC3AE6DFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ceshi", "..\ceshi\ceshi.csproj", "{033784B0-746E-4AA5-ADCA-C7F84686421C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "运动模拟窗体", "..\运动模拟窗体\运动模拟窗体.csproj", "{14104E06-A50E-4E81-9408-34329EA2B0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26题运动模拟", "..\26题运动模拟\26题运动模拟.csproj", "{3D5AEE77-CF13-43E8-87DB-894AE1D494D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E0D4AC-143B-4F51-B637-C2EC3AE6DFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E0D4AC-143B-4F51-B637-C2EC3AE6DFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E0D4AC-143B-4F51-B637-C2EC3AE6DFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E0D4AC-143B-4F51-B637-C2EC3AE6DFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033784B0-746E-4AA5-ADCA-C7F84686421C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033784B0-746E-4AA5-ADCA-C7F84686421C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033784B0-746E-4AA5-ADCA-C7F84686421C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033784B0-746E-4AA5-ADCA-C7F84686421C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14104E06-A50E-4E81-9408-34329EA2B0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14104E06-A50E-4E81-9408-34329EA2B0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14104E06-A50E-4E81-9408-34329EA2B0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14104E06-A50E-4E81-9408-34329EA2B0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5AEE77-CF13-43E8-87DB-894AE1D494D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5AEE77-CF13-43E8-87DB-894AE1D494D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5AEE77-CF13-43E8-87DB-894AE1D494D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5AEE77-CF13-43E8-87DB-894AE1D494D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E71734-145C-4C24-837D-7D86BFC36519}
+	EndGlobalSection
+EndGlobal

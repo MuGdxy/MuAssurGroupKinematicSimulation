@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{12E0D4AC-143B-4F51-B637-C2EC3AE6DFE3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>连杆机构</RootNamespace>
+    <AssemblyName>连杆机构</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="I_Part\Cam_My4.cs" />
+    <Compile Include="DrawAll.cs" />
+    <Compile Include="I_Part\Cam_My3.cs" />
+    <Compile Include="I_Part\Cam_My2.cs" />
+    <Compile Include="I_Part\Cam_My1.cs" />
+    <Compile Include="II_Part\RPR_Group.cs" />
+    <Compile Include="I_Part\AttachBar.cs" />
+    <Compile Include="I_Part\Bar.cs" />
+    <Compile Include="I_Part\DrivingLink.cs" />
+    <Compile Include="I_Part\FramePoint.cs" />
+    <Compile Include="I_Part\GuidePath.cs" />
+    <Compile Include="MakeForm.cs" />
+    <Compile Include="Matrix3x3.cs" />
+    <Compile Include="Output\II_Part_Output.cs" />
+    <Compile Include="II_Part\II_Group.cs" />
+    <Compile Include="Output\I_Part_Output.cs" />
+    <Compile Include="Output\RPR_Part_Output.cs" />
+    <Compile Include="Output\RRP_Output.cs" />
+    <Compile Include="PairDrawing.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="II_Part\RRP_Group.cs" />
+    <Compile Include="II_Part\RRR_Group.cs" />
+    <Compile Include="Output\Vector2_t.cs" />
+    <Compile Include="ToExcel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

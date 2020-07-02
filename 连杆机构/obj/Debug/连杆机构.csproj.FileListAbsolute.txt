@@ -1,0 +1,11 @@
+D:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.csprojAssemblyReference.cache
+D:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.csproj.CoreCompileInputs.cache
+D:\C#Script\机械原理大作业\连杆机构\bin\Debug\连杆机构.exe.config
+D:\C#Script\机械原理大作业\连杆机构\bin\Debug\连杆机构.exe
+D:\C#Script\机械原理大作业\连杆机构\bin\Debug\连杆机构.pdb
+D:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.exe
+D:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.pdb
+G:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.csprojAssemblyReference.cache
+G:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.csproj.CoreCompileInputs.cache
+G:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.exe
+G:\C#Script\机械原理大作业\连杆机构\obj\Debug\连杆机构.pdb
