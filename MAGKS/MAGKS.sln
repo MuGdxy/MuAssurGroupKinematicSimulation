@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAGKS", "MAGKS.csproj", "{CC6D3074-8FFD-4DE4-91A7-67B3186A4206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Driver", "..\Driver\Driver.csproj", "{1A4BC56E-F828-478D-A4B7-A83B79F1B39D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC6D3074-8FFD-4DE4-91A7-67B3186A4206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6D3074-8FFD-4DE4-91A7-67B3186A4206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6D3074-8FFD-4DE4-91A7-67B3186A4206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6D3074-8FFD-4DE4-91A7-67B3186A4206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4BC56E-F828-478D-A4B7-A83B79F1B39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4BC56E-F828-478D-A4B7-A83B79F1B39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4BC56E-F828-478D-A4B7-A83B79F1B39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4BC56E-F828-478D-A4B7-A83B79F1B39D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E3DEF21-2BF7-449A-AA89-F65F2DA6D6B5}
+	EndGlobalSection
+EndGlobal
